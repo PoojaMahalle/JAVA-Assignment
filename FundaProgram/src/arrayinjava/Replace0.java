@@ -1,4 +1,4 @@
-package arrayinjava;
+ package arrayinjava;
 
 import java.util.Scanner;
 
