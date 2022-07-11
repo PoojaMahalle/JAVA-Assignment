@@ -18,16 +18,16 @@ public class ThreeDigit {
 			int first = two/10;
 			int mid = two%10;
 			int sum = last+mid+first;
-			System.out.println(last+first+mid);
+			System.out.println(sum);
 			
 			
 			if(n == sum)
 			{
-				System.out.println("Armstrong number"+n);
+				System.out.println("Armstrong number "+n);
 			}
 			else
 			{
-				System.out.println("Not a armstrong number"+n);
+				System.out.println("Not a armstrong number "+n);
 			}
 		}
 		else

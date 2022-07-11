@@ -17,7 +17,7 @@ public class DemoSwitch {
         case 1: int sum = a+b;
                 System.out.println("sum of two numbers= "+sum);
                 break;
-        case 2: int sub = a*b;
+        case 2: int sub = a-b;
                 System.out.println("Substraction of two numbers= "+sub);
                 break;
         case 3: int multi = a*b;

@@ -26,4 +26,10 @@ class A1 {
 
 	}
 
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
