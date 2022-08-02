@@ -23,7 +23,7 @@ public class SrtingDemo {
        System.out.println(s1+s2);
        System.out.println(s1.concat(s2));
        
-       System.out.println(s1.compareTo(s2));//Java java A=65
+       System.out.println(s1.compareTo(s2));//Java java A=65 return type is integer
        //s1>s2  +ve  ascii(s1)-ascii(s2)
        //s1<s2 -ve   ascii(s1)-ascii(s2)
        //s1==s2 0    ascii(s1)-ascii(s2)

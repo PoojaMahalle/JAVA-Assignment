@@ -15,7 +15,7 @@ public class BufferBuilder {
 //        sbf.reverse();
 //        System.out.println(sbf);
         
-        System.out.println(sbf.capacity());//16+4
+        System.out.println(sbf.capacity());//16+4  (current capacity*2)+2;
         System.out.println(sbf.length());
         
         sbf.replace(5, 8, "LAN");//start index,end index,replace(8-5)=3 char from 5
