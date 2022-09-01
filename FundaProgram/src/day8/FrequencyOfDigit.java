@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class FrequencyOfDigit {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter any number");
-		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter any number");
+//		
 		int num = 1212345,temp;
 		temp = num;
 		
@@ -15,7 +15,7 @@ public class FrequencyOfDigit {
 		{
 			int cnt = 0;
 			num=temp;
-			while(num!=0) //num=12345  num=1234
+			while(num>0) //num=12345  num=1234
 			{
 				int r = num % 10; //r=5 r=4
 				if(r==i) 
